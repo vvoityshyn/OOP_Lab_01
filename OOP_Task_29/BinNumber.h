@@ -11,10 +11,10 @@ public:
 	BinNumber(int length);
 	~BinNumber();
 
-	void SetNumber(char* number);
+	void SetNumber(const char* number);
 	const char* GetNumber();
 
-	void Add(BinNumber &bin);
+	void Add(const BinNumber &bin);
 
 	int GetLength();
 };
